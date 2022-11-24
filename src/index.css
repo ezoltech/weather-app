@@ -104,3 +104,21 @@ h1 {
 .bold {
     font-weight: 700;
 }
+
+.container h3 {
+    text-align: center;
+}
+
+.container h3 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container h2 {
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
