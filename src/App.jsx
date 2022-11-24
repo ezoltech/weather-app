@@ -49,7 +49,7 @@ function App() {
         </div>
         {/* lower part */}
 
-        {data.name != undefined &&
+        {data.name !== undefined &&
           < div className="bottom">
             <div className="feels">
               {data.main ? <p className='bold'>{data.main.feels_like}◦C</p> : null}
