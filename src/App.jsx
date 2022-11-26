@@ -21,6 +21,9 @@ function App() {
 
   return (
     <div className="app">
+      <video id="background-video" autoPlay loop muted>
+        <source src="https://sexy-avocado.000webhostapp.com/bg_video.mp4" type="video/mp4" />
+      </video>
       <div className="searchbar">
         <Slide left>
           <input
